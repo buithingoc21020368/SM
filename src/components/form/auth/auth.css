@@ -1,0 +1,47 @@
+.auth-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.auth-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.auth-form input {
+  padding: 10px;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+}
+
+.auth-form button {
+  padding: 10px;
+  background-color: #1890ff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.auth-form button:hover {
+  background-color: #40a9ff;
+}
+
+.auth-link {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-link a {
+  color: #1890ff;
+}
+
+.auth-link a:hover {
+  text-decoration: underline;
+}
