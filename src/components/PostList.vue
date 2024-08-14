@@ -17,7 +17,7 @@
 <script>
 import InfiniteLoading from "v3-infinite-loading";
 import SinglePost from "./SinglePost.vue";
-import { postApi } from "@/api/authUrl";
+import { postApi } from "@/api/postUrl";
 
 export default {
   name: "Posts",
@@ -27,7 +27,64 @@ export default {
   },
   data() {
     return {
-      postLists: [],
+      postLists: [
+        {
+          postID: 1,
+          content: String,
+          createdAt: String,
+          updatedAt: String,
+          imagePosts: [],
+          tagUsers: [],
+        },
+        {
+          postID: 1,
+          content: String,
+          createdAt: String,
+          updatedAt: String,
+          imagePosts: Array,
+          tagUsers: Array,
+        },
+        {
+          postID: 1,
+          content: String,
+          createdAt: String,
+          updatedAt: String,
+          imagePosts: Array,
+          tagUsers: Array,
+        },
+        {
+          postID: 1,
+          content: String,
+          createdAt: String,
+          updatedAt: String,
+          imagePosts: Array,
+          tagUsers: Array,
+        },
+        {
+          postID: 1,
+          content: String,
+          createdAt: String,
+          updatedAt: String,
+          imagePosts: Array,
+          tagUsers: Array,
+        },
+        {
+          postID: 1,
+          content: String,
+          createdAt: String,
+          updatedAt: String,
+          imagePosts: Array,
+          tagUsers: Array,
+        },
+        {
+          postID: 1,
+          content: String,
+          createdAt: String,
+          updatedAt: String,
+          imagePosts: Array,
+          tagUsers: Array,
+        },
+      ],
       page: 1,
     };
   },

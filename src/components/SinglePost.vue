@@ -13,7 +13,7 @@
 
     <div>
       <p v-if="content" class="mb-2 whitespace-pre-line">{{ content }}</p>
-      <!-- <div v-if="imagePosts.length" class="mt-4">
+      <div v-if="imagePosts.length" class="mt-4">
         <img
           v-for="(image, index) in imagePosts"
           :key="index"
@@ -21,7 +21,7 @@
           alt="Post Image"
           class="w-full h-auto mb-4"
         />
-      </div> -->
+      </div>
       <img
         class="w-full h-auto mb-4"
         src="../assets/image/bg.png"

@@ -1,7 +1,7 @@
 import axios from "axios";
 import headerAuthApi from "./headerAuthApi";
 
-const baseApiAuthUrl = `${import.meta.env.VITE_BASE_API_URL}/auth`;
+const baseApiAuthUrl = `${import.meta.env.VITE_BASE_API_URL}/v1/auth`;
 
 export const authApi = {
   register(data) {
@@ -40,14 +40,5 @@ export const accountApi = {
       data,
       headerAuthApi
     );
-  },
-};
-
-export const postApi = {
-  getPosts(params) {
-    return axios.get(`${import.meta.env.VITE_BASE_API_URL}/post`, {
-      params,
-      ...headerAuthApi,
-    });
   },
 };
